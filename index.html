@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Rock, paper, scissors</title>
+	<link rel="stylesheet" href="style.css" />
+	<script type="module" src="script.js"></script>
+</head>
+<body>
+	<!-- ÄNDRA INTE DENNA KOD -->
+	<section class="user">
+		<header>
+			<p class="actor">You</p>
+			<p class="user-score">0 points</p>
+		</header>
+
+		<section class="content">
+			<figure class="rock hide">
+				<span>&#128074;</span>
+				<figcaption>Rock</figcaption>
+			</figure>
+			<figure class="paper hide">
+				<span>&#9995;</span>
+				<figcaption>Paper</figcaption>
+			</figure>
+			<figure class="scissors hide">
+				<span>&#9996;</span>
+				<figcaption>Scissors</figcaption>
+			</figure>
+		</section>
+
+		<footer>
+			<button id="throw">Throw it</button>
+		</footer>
+	</section>
+
+	<section class="computer">
+		<header>
+			<p class="actor">Computer</p>
+			<p class="computer-score">0 points</p>
+		</header>
+
+		<section class="content">
+			<figure class="rock hide">
+				<span>&#128074;</span>
+				<figcaption>Rock</figcaption>
+			</figure>
+			<figure class="paper hide">
+				<span>&#9995;</span>
+				<figcaption>Paper</figcaption>
+			</figure>
+			<figure class="scissors hide">
+				<span>&#9996;</span>
+				<figcaption>Scissors</figcaption>
+			</figure>
+		</section>
+
+		<footer>
+			<p class="throw-count"> 0 throws </p>
+		</footer>
+	</section>
+
+	<dialog class="game-over hide" open>
+		<h2>Game over</h2>
+		<p class="message"> You won!! </p>
+		<button id="start-over"> Start over </button>
+	</dialog>
+</body>
+</html>
